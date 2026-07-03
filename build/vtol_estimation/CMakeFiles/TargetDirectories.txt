@@ -1,9 +1,0 @@
-/home/naserddinee0/vtol_ws/build/vtol_estimation/CMakeFiles/uninstall.dir
-/home/naserddinee0/vtol_ws/build/vtol_estimation/CMakeFiles/vtol_estimation_uninstall.dir
-/home/naserddinee0/vtol_ws/build/vtol_estimation/CMakeFiles/test.dir
-/home/naserddinee0/vtol_ws/build/vtol_estimation/CMakeFiles/edit_cache.dir
-/home/naserddinee0/vtol_ws/build/vtol_estimation/CMakeFiles/rebuild_cache.dir
-/home/naserddinee0/vtol_ws/build/vtol_estimation/CMakeFiles/list_install_components.dir
-/home/naserddinee0/vtol_ws/build/vtol_estimation/CMakeFiles/install.dir
-/home/naserddinee0/vtol_ws/build/vtol_estimation/CMakeFiles/install/local.dir
-/home/naserddinee0/vtol_ws/build/vtol_estimation/CMakeFiles/install/strip.dir

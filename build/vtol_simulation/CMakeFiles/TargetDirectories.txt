@@ -1,9 +1,0 @@
-/home/naserddinee0/vtol_ws/build/vtol_simulation/CMakeFiles/uninstall.dir
-/home/naserddinee0/vtol_ws/build/vtol_simulation/CMakeFiles/vtol_simulation_uninstall.dir
-/home/naserddinee0/vtol_ws/build/vtol_simulation/CMakeFiles/test.dir
-/home/naserddinee0/vtol_ws/build/vtol_simulation/CMakeFiles/edit_cache.dir
-/home/naserddinee0/vtol_ws/build/vtol_simulation/CMakeFiles/rebuild_cache.dir
-/home/naserddinee0/vtol_ws/build/vtol_simulation/CMakeFiles/list_install_components.dir
-/home/naserddinee0/vtol_ws/build/vtol_simulation/CMakeFiles/install.dir
-/home/naserddinee0/vtol_ws/build/vtol_simulation/CMakeFiles/install/local.dir
-/home/naserddinee0/vtol_ws/build/vtol_simulation/CMakeFiles/install/strip.dir
