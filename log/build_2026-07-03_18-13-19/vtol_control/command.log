@@ -1,0 +1,6 @@
+Invoking command in '/home/naserddinee0/vtol_ws/build/vtol_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/naserddinee0/vtol_ws/src/vtol_control -DCMAKE_INSTALL_PREFIX=/home/naserddinee0/vtol_ws/install/vtol_control
+Invoked command in '/home/naserddinee0/vtol_ws/build/vtol_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/naserddinee0/vtol_ws/src/vtol_control -DCMAKE_INSTALL_PREFIX=/home/naserddinee0/vtol_ws/install/vtol_control
+Invoking command in '/home/naserddinee0/vtol_ws/build/vtol_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naserddinee0/vtol_ws/build/vtol_control -- -j8 -l8
+Invoked command in '/home/naserddinee0/vtol_ws/build/vtol_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naserddinee0/vtol_ws/build/vtol_control -- -j8 -l8
+Invoking command in '/home/naserddinee0/vtol_ws/build/vtol_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/naserddinee0/vtol_ws/build/vtol_control
+Invoked command in '/home/naserddinee0/vtol_ws/build/vtol_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/naserddinee0/vtol_ws/build/vtol_control

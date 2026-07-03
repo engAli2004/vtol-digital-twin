@@ -1,0 +1,2 @@
+source;share/vtol_estimation/environment/ament_prefix_path.sh
+source;share/vtol_estimation/environment/path.sh
