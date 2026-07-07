@@ -300,5 +300,15 @@
       <update_rate>50.0</update_rate>
     </plugin>
   </gazebo>
-
+<!-- ================= BODY FORCE INPUT (drag + future wing forces) ================= -->
+<gazebo>
+  <plugin name="force_body" filename="libgazebo_ros_force.so">
+    <ros>
+      <namespace>/vtol_uav</namespace>
+      <remapping>gazebo_ros_force:=force_body</remapping>
+    </ros>
+    <link_name>dummy_root</link_name>
+    <force_frame>world</force_frame>
+  </plugin>
+</gazebo>
 </robot>

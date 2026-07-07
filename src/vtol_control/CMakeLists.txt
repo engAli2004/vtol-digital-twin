@@ -28,7 +28,7 @@ if(BUILD_TESTING)
 endif()
 # Compile the Aerodynamics Node
 add_executable(aerodynamics_node src/aerodynamics_node.cpp)
-ament_target_dependencies(aerodynamics_node rclcpp sensor_msgs geometry_msgs)
+ament_target_dependencies(aerodynamics_node rclcpp sensor_msgs geometry_msgs nav_msgs)
 
 # Install the executable so ROS 2 can run it
 install(TARGETS
