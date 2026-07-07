@@ -24,3 +24,9 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
+ # Install URDF and Launch files
+ install(DIRECTORY
+  urdf
+  launch
+  DESTINATION share/${PROJECT_NAME}
+)

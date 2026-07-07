@@ -7,6 +7,10 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -22,5 +26,28 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+# Compile the Aerodynamics Node
+add_executable(aerodynamics_node src/aerodynamics_node.cpp)
+ament_target_dependencies(aerodynamics_node rclcpp sensor_msgs geometry_msgs)
 
+# Install the executable so ROS 2 can run it
+install(TARGETS
+  aerodynamics_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+# Compile the Hover PID Controller
+add_executable(hover_pid_node src/hover_pid_node.cpp)
+ament_target_dependencies(hover_pid_node rclcpp sensor_msgs std_msgs nav_msgs )
+
+# Install the executable
+install(TARGETS
+  aerodynamics_node
+  hover_pid_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+# Install Config files
+install(DIRECTORY
+  config
+  DESTINATION share/${PROJECT_NAME}
+)
 ament_package()
