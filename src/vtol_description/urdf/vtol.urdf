@@ -300,6 +300,17 @@
       <update_rate>50.0</update_rate>
     </plugin>
   </gazebo>
+<!-- ================= PUSHER FORCE INPUT ================= -->
+<gazebo>
+  <plugin name="force_pusher" filename="libgazebo_ros_force.so">
+    <ros>
+      <namespace>/vtol_uav</namespace>
+      <remapping>gazebo_ros_force:=force_pusher</remapping>
+    </ros>
+    <link_name>rotor_pusher</link_name>
+    <force_frame>link</force_frame>
+  </plugin>
+</gazebo>
 <!-- ================= BODY FORCE INPUT (drag + future wing forces) ================= -->
 <gazebo>
   <plugin name="force_body" filename="libgazebo_ros_force.so">
