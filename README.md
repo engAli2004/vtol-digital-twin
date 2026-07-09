@@ -1,9 +1,15 @@
+
+
 # VTOL Digital Twin — Autonomous UAV Simulation
 
 A digital twin of a quad-rotor VTOL UAV with a pusher propeller, built with
 **ROS 2 Humble** and **Gazebo Classic**. The drone flies a fully autonomous
 mission — takeoff, a 4-waypoint patrol on smooth minimum-snap trajectories,
 and landing — using only **estimated state** from simulated noisy sensors.
+
+
+https://github.com/user-attachments/assets/daa1302b-c66d-4dc0-8d58-979194f06346
+
 
 ## Delivered mission
 
